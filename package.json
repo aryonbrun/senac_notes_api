@@ -1,0 +1,28 @@
+{
+  "name": "senac_notes_api",
+  "version": "1.0.0",
+  "description": "senac_notes_api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryonbrun/senac_notes_api.git"
+  },
+  "author": "aryon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryonbrun/senac_notes_api/issues"
+  },
+  "homepage": "https://github.com/aryonbrun/senac_notes_api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "npm-run-all": "^4.1.5",
+    "sequelize": "^6.21.3",
+    "sequelize-cli": "^6.4.1",
+    "sucrase": "^3.24.0"
+  }
+}
