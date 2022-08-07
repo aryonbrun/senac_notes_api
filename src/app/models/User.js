@@ -16,6 +16,7 @@ class User extends model{
     }
     static associate(models){
         this.belongsTo(models.Profile,{foreingKey: 'profileId', as: 'profile'});
+        this.hasMany(models.Note, {foreingKey: 'userId', as: 'note'});
     }
 }
 module.exports = User;
